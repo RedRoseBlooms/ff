@@ -43,7 +43,7 @@ class Config:
     pool_min_size: int = 5
     pool_max_size: int = 50
     cache_ttl_seconds: int = 60
-    max_bet_multiplier: Decimal = field(default=Decimal("0.25"))
+    max_bet_multiplier: Decimal = field(default=Decimal("1.00"))
     rob_success_rate: float = 0.35
     crime_success_rate: float = 0.45
     work_min: Decimal = field(default=Decimal("0.01"))
